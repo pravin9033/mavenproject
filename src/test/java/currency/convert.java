@@ -26,7 +26,7 @@ public class convert {
             // For amounts Conversion
             if (code == 1) {
 
-                dollar = amount / 70;
+                dollar = amount / 60;
                 System.out.println("Your " + amount + " Rupee is : " + f.format(dollar) + " Dollar");
 
                 pound = amount / 88;
